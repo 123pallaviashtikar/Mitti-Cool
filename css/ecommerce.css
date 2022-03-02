@@ -1,0 +1,475 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* navigation */
+
+nav{
+  padding:15px 0px;
+  background-color:#b46758;
+}
+
+nav .navbar-nav a{
+  color:#fff;
+  font-family:'Poppins', sans-serif;
+  font-size:19px;
+  font-weight:500;
+}
+
+nav .navbar-nav a:hover{
+    color:black;
+}
+
+nav .navbar-brand{
+    color:#fff;
+    font-weight:600;
+}
+
+nav a img{
+  width:50%;
+  margin-top:-15px;
+}
+
+/* slides per */
+  
+nav .navbar-toggle{
+   background-color:antiquewhite;
+   color:black;
+   border:5px solid #fff;
+}
+
+nav .icon-bar{
+  color:#fff;
+}
+
+
+
+/* swiper */
+
+.product{
+  padding:70px 0px;
+  text-align:center;
+}
+
+.product h2{
+  color:#021d41;
+  font-size:35px;
+  font-weight:600;
+  margin-bottom:30px;
+  text-decoration:underline;
+  text-decoration-color:#b46758;
+  text-decoration-style:solid;
+  text-decoration-thickness:8px;
+  
+}
+
+.product p{
+  color:rgb(34, 34, 34);
+  font-size:17px;
+}
+
+.swiper {
+    width: 70%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 400px;
+    background-color:#b46758;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+
+/* achievement */
+
+.background img{
+ width:100%;
+}
+
+.background{
+  margin-bottom:40px;
+}
+
+
+/* top selling product */
+
+.top-product .pro-block img{
+  width:100%;
+  
+}
+
+.top-product .space{
+   margin:90px 0px;
+}
+
+.head{
+   text-align:center;
+}
+
+.head h2{
+  color:#021d41;
+  font-size:35px;
+  font-weight:600;
+  margin-bottom:30px;
+  text-decoration:underline;
+  text-decoration-color:#b46758;
+  text-decoration-style:solid;
+  text-decoration-thickness:6px;
+}
+
+.rate h3{
+  font-weight:400;
+  font-size:18px;
+  color:black;
+  cursor:pointer;
+}
+
+.rate h3:hover{
+   color:#b46758;
+   transition-duration:1s;
+   font-weight:400;
+}
+
+.rate h4{
+  color:#b46758;
+}
+
+.rate button{
+   width:130px;
+   height:35px;
+   border:none;
+   background-color:#021d41;
+   color:#fff;
+}
+
+.rate button:hover{
+  background-color:#b46758;
+  transition-duration:1s;
+  font-weight:500;
+}
+
+/* summer special */
+.summer-special{
+  padding-bottom:70px;
+}
+
+.summer-special .wrapper{
+  margin:50px 0px;
+}
+
+.summer-special .set img{
+   width:100%;
+}
+
+.summer-special .space{
+    margin-top:20px;
+}
+
+.summer-special .full{
+   width:100%;
+   text-align:center;
+}
+
+.summer-special .full button{
+  width:100%;
+  height:40px;
+  border:3px solid black;
+  border-radius:10px;
+  font-size:16px;
+}
+
+.summer-special .full .decor{
+  background-color:#b46758;
+  border:none;
+  color:#fff;
+}
+
+.row-1,.row-2,.row-3{
+  display:none; 
+  margin-top:20px;
+}
+
+.active{
+  display:block;
+}
+
+
+/* atmnirbhar bharat */
+
+.bc-img{
+  background-image:url("../img/istockphoto-874819426-612x612.jpg");
+  width:100%;
+  height:100%;
+  padding-bottom:200px;
+  background-size:cover;
+  background-attachment:fixed;
+  margin:60px 0px;
+}
+
+.bc-img .text h1{
+   position:relative;
+   line-height:70px;
+   font-size:60px;
+   font-weight:600;
+   color:#fff;
+}
+
+.bc-img .text{
+  margin-top:200px;
+}
+
+/* benefits */
+
+.benefit{
+   margin-bottom:70px;
+}
+
+.heading{
+  text-align:center;
+  margin-bottom:80px;
+}
+
+.heading h2{
+  color:#021d41;
+  font-size:35px;
+  font-weight:600;
+  margin-bottom:30px;
+  text-decoration:underline;
+  text-decoration-color:#b46758;
+  text-decoration-style:solid;
+  text-decoration-thickness:6px;
+}
+
+.copper h3{
+  color:black;
+  font-size:20px;
+  text-align:center;
+}
+
+.copper img{
+  width:100%;
+}
+
+.copper .height{
+  margin-top:20px;
+}
+
+.copper .cop-ben li{
+   font-size:16px;
+   color:black;
+   margin-top:7px;
+}
+
+.copper .cop-ben ul{
+  margin-top:30px;
+  padding:30px;
+}
+
+.pad{
+  padding-bottom:210px;
+}
+
+.copper{
+  border:10px solid #fff;
+  box-shadow:2px 2px 10px gray;
+}
+
+.copper .heading-h3 h3{
+   text-align:left;
+   padding:10px;
+   text-decoration:underline;
+   
+}
+
+
+/* Google map */
+
+.map h2{
+  color:#021d41;
+  font-size:35px;
+  font-weight:600;
+  margin-bottom:30px;
+  text-decoration:underline;
+  text-decoration-color:#b46758;
+  text-decoration-style:solid;
+  text-decoration-thickness:6px;
+  text-align:center;
+}
+
+.text h3{
+  line-height:40px;
+  font-weight:400;
+  font-size:19px;
+  text-decoration: underline;
+}
+
+.text .fa{
+   color:black;
+   padding:10px;
+   border-radius:100%;
+   border:2px solid black;
+   background-color:#fff;
+   font-size:19px;
+   margin-right:9px;
+   transition-duration: 1s;
+   margin-top:18px;
+}
+
+.text .email{
+  display:block;
+  color:black;
+  font-size:16px;
+}
+
+.text .email:hover{
+   color:#b46758;
+}
+
+.text .fa-whatsapp{
+  font-weight:600;
+}
+
+.text .fa:hover{
+   border:none;
+   background-color:#b46758;
+   color:#fff;
+}
+
+.text{
+   margin-top:85px;
+}
+
+
+@media only screen and (max-width:992px){
+
+   .summer-special .active img{
+      margin-top:10px;
+   }
+
+   .benefit .heading-h3{
+      padding:0px;
+   }
+
+   .copper .heading-h3 h3{
+      padding:0px;
+   }
+
+}
+
+@media only screen and (max-width:768px){
+
+   .head{
+      margin-top:40px;
+   }
+  
+   .head h2{
+        font-size:25px;
+    }
+
+    .head p{
+      font-size:13px;
+    }
+
+    .pro-block{
+       margin-top:50px;
+    }
+
+    .pro-block .rate{
+       text-align:center;
+    }
+
+    .top-product .space{
+      margin:20px 0px;
+    }
+
+    .summer-special .wrapper button{
+       margin-top:20px;
+    }
+
+    .bc-img{
+       padding-bottom:100px;
+       background-size:cover;
+    }
+
+    .bc-img .text h1{
+       font-size:40px;
+    }
+
+    .bc-img .text{
+       margin-top:100px;
+    }
+
+    .pad{
+      padding-bottom:0px;
+    }
+
+    .copper h3{
+      font-size:15px;
+    }
+
+    .copper .cop-ben li{
+      font-size:13px;
+    }
+
+    .copper .cop-ben ul{
+      margin-top:20px;
+    }
+
+    .copper{
+       margin-top:30px;
+    }
+
+    .copper .cop-ben ul{
+       margin-top:10px;
+    }
+
+    .copper .cop-ben ul{
+       margin-top:10px;
+       padding:30px;
+    }
+
+    .text{
+       margin-top:40px;
+       margin-bottom:20px;
+    }
+  
+    .text h3{
+      font-size:13px;
+    }
+
+    .text .email{
+      font-size:13px;
+    }
+
+    .text .fa{
+      font-size:13px;
+    }
+
+    .swiper{
+      width:100%;
+    }
+
+    .swiper-slide{
+      width:250px;
+      height:200px;
+    }
+}
